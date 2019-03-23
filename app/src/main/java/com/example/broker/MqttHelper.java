@@ -20,7 +20,7 @@ public class MqttHelper {
     private final String clientId = "ExampleAndroidClient";
     private final String subscriptionTopic = "test/temp";
     private final String username = "fuueltsc";
-    private final String password = "50DfwRnwefu2";
+    private final String password = "50DfwRnwefu2";//
 
     public MqttHelper(Context context, MqttCallbackExtended mqttCallbackExtended) {
         mqttAndroidClient = new MqttAndroidClient(context, serverUri, clientId);
